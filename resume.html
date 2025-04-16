@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibhor Garg Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@tailwindcss/browser@latest"></script>
+    <style>
+        /* Custom CSS for enhanced resume presentation */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .section-title {
+            font-weight: 700;
+            color: #2d3748;
+            margin-bottom: 1.25rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 2px solid #e2e8f0;
+        }
+        .resume-section {
+            margin-bottom: 2rem;
+        }
+        .job-title {
+            font-weight: 600;
+            color: #4a5568;
+        }
+        .company-name {
+            color: #718096;
+            margin-bottom: 0.25rem;
+        }
+        .date-range {
+            color: #a0aec0;
+            font-size: 0.875rem;
+            margin-bottom: 0.75rem;
+        }
+        .skill-item {
+            background-color: #edf2f7;
+            color: #4a5568;
+            padding: 0.5rem 1rem;
+            border-radius: 1rem;
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+            font-size: 0.875rem;
+            display: inline-flex;
+            align-items: center;
+        }
+        .skill-item .icon {
+            margin-right: 0.5rem;
+            width: 1rem;
+            height: 1rem;
+        }
+        .project-item {
+            margin-bottom: 1.5rem;
+        }
+        .project-title {
+            font-weight: 600;
+            color: #4a5568;
+            margin-bottom: 0.25rem;
+        }
+        .project-date {
+            color: #a0aec0;
+            font-size: 0.875rem;
+            margin-bottom: 0.75rem;
+        }
+        .project-description {
+            color: #718096;
+            line-height: 1.625;
+        }
+        .contact-info {
+            color: #718096;
+            display: flex;
+            align-items: center;
+            margin-bottom: 0.5rem;
+        }
+        .contact-info svg {
+            margin-right: 0.75rem;
+            width: 1rem;
+            height: 1rem;
+        }
+
+        /* New styles for improved formatting */
+        .achievement {
+            font-weight: 600;
+            color: #2d3748;
+        }
+
+        .job-item {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            border-radius: 0.75rem;
+            background-color: #f7fafc;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .education-item {
+            margin-bottom: 1.5rem;
+            padding: 1.5rem;
+            border-radius: 0.75rem;
+            background-color: #f7fafc;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-item {
+            margin-bottom: 1.5rem;
+            padding: 1.5rem;
+            border-radius: 0.75rem;
+            background-color: #f7fafc;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+        }
+        ul.list-disc {
+            margin-left: 1.25rem;
+            list-style-type: disc;
+            padding-left: 0;
+        }
+        ul.list-inside {
+            padding-left: 0.5rem;
+        }
+
+        /* Summary Styles */
+        .summary-section {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            border-radius: 0.75rem;
+            background-color: #f7fafc;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .summary-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 1rem;
+        }
+
+        .summary-item {
+            margin-bottom: 0.75rem;
+            color: #4a5568;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 p-6">
+    <div class="max-w-4xl mx-auto bg-white rounded-lg shadow-xl p-8">
+        <header class="text-center mb-8">
+            <h1 class="text-3xl font-bold text-gray-800">Vibhor Garg</h1>
+            <p class="text-xl text-gray-600">Senior Software Development Engineer</p>
+        </header>
+
+        <section class="summary-section">
+            <h2 class="summary-title">Summary of Experience and Achievements</h2>
+            <ul class="list-disc list-inside">
+                <li class="summary-item">Experienced Senior Software Development Engineer with a proven track record of designing and implementing highly scalable and reliable systems.</li>
+                <li class="summary-item">Experience of working with large enterprises as well as fast paced startups.</li>
+                <li class="summary-item">Key achievements include:
+                    <ul style="list-style-type: disc; padding-left: 2rem;">
+                        <li class="summary-item">Designing and implementing a highly scalable system for long-running tasks.</li>
+                        <li class="summary-item">Achieving an 80% reduction in labor model hosting costs, while making the system elastic to handle variable load periods.</li>
+                        <li class="summary-item">Helped bump up the profits from a specific segment by 90% and revenue by 20% by adding personalization in the ad slot bidding systems.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section class="resume-section">
+            <h2 class="section-title">Experience</h2>
+            <div class="job-item">
+                <h3 class="job-title">Senior Software Development Engineer</h3>
+                <p class="company-name">Amazon.com</p>
+                <p class="date-range">Sep 2018 - Till Date</p>
+                <ul class="list-disc list-inside">
+                    <li class="achievement">Designed and implemented a highly configurable, highly scalable system to execute long-running tasks.</li>
+                    <li>Implemented traffic shaping mechanisms to optimize resource utilization and system performance.</li>
+                    <li class="achievement">Achieved an 80% reduction in labor model hosting costs through cost-efficient architecture.</li>
+                    <li>Proposed and designed systems to streamline labor planning capabilities across the different lines of Amazon business, thereby helping in improving the development speed as well as improving the effort required to roll out new features across the different lines of businesses.</li>
+                    <li>Designed an AWS based solution to extract meaningful information from request response logs and provide users the capability to query the data using Amazon Athena. This helped the development teams identify the gaps across the different transportation programs.</li>
+                    <li>Designed and developed strategy to safely migrate transportation clients to a new unified platform helping resolve redundancy and speeding up the business.</li>
+                    <li>Designed and developed a system which could enable shipping packages from foreign locations to US customers.</li>
+                </ul>
+                <p>Technologies Used: Java, AWS</p>
+            </div>
+            <div class="job-item">
+                <h3 class="job-title">Platform Engineer</h3>
+                <p class="company-name">Media.net</p>
+                <p class="date-range">Sep 2017 - Sep 2018</p>
+                <ul class="list-disc list-inside">
+                    <li>Designed systems to bid on Ad slots based on user characteristics.</li>
+                    <li>Designed multiple models to study user behavior and bid based on them.</li>
+                    <li>Captured historic data of visitors to calculate a visitor bias.</li>
+                    <li>Dealt with data in the order of billions of entries to find the final biases.</li>
+                    <li class="achievement">This system increased the profits of the company by 90% and the revenue by 20%.</li>
+                    <li>Created a model to target visitors using IP-Addresses.</li>
+                    <li>Analyzed historic IP level data to calculate the biases.</li>
+                    <li>This system had a coverage of 40% by revenue. The profits from this system were around 70% upside and revenue shot up by 10%.</li>
+                </ul>
+                <p>Technologies Used: Java, Hive, MySQL, Redis</p>
+            </div>
+            <div class="job-item">
+                <h3 class="job-title">Senior Software Engineer</h3>
+                <p class="company-name">Juggernaut Books</p>
+                <p class="date-range">Nov 2015 - Aug 2017</p>
+                <ul class="list-disc list-inside">
+                    <li>Designed and developed most of the backend systems for Juggernaut Books.</li>
+                    <li>Designed a micro-service architecture.</li>
+                    <li>Created around 5 services to handle the majority of the tasks and an aggregate layer.</li>
+                    <li>Designed a system to take text input from the admin, parse it, and convert it into a standard e-book.</li>
+                    <li>Designed a highly customizable system for serving the Discover pages on the app.</li>
+                    <li>Designed a state machine for the Orders System.</li>
+                    <li>Designed the payments flow for multiple carriers, Paytm, Juspay and iOS In-app payments.</li>
+                    <li>Designed a credits system.</li>
+                    <li>The system also validates the payment status from different vendors.</li>
+                </ul>
+                <p>Technologies Used: Python, Django, Redis, SQS, S3, Mongo</p>
+            </div>
+            <div class="job-item">
+                <h3 class="job-title">Software Development Engineer</h3>
+                <p class="company-name">Amazon.com</p>
+                <p class="date-range">Feb 2014 - Nov 2015</p>
+                <ul class="list-disc list-inside">
+                    <li>Developed RacerX platform for automatic resolution of Customer Issues.</li>
+                    <li>Automated the process for ungating sellers to sell in specific categories.</li>
+                    <li>Automated seller issues relating to orders/listings.</li>
+                </ul>
+                <p>Worked on a variety of environments, which run on Spring, Java, Python, Django etc.</p>
+            </div>
+            <div class="job-item">
+                <h3 class="job-title">Research Intern</h3>
+                <p class="company-name">IIT Delhi</p>
+                <p class="date-range">Summer 2013</p>
+                <ul class="list-disc list-inside">
+                    <li>Worked in Machine Learning and Artificial Intelligence.</li>
+                    <li class="achievement">Developed a novel approach based on Particle Swarm Algorithm over a linear Kernel.</li>
+                    <li class="achievement">Improved accuracy of linear SVM for the Micro Array Data Sets to surpass their baselines while selecting minimum number of features.</li>
+                </ul>
+            </div>
+        </section>
+        <section class="resume-section">
+            <h2 class="section-title">Education</h2>
+            <div class="education-item">
+                <h3 class="job-title">B. Tech (CSE)</h3>
+                <p class="company-name">Jaypee Institute of Information Technology, Noida</p>
+                <p class="date-range">Year of Passing: 2014</p>
+                <p>GPA: 8.5/10</p>
+            </div>
+            <div class="education-item">
+                <h3 class="job-title">ISC-XII</h3>
+                <p class="company-name">Boys' High School, Allahabad</p>
+                <p class="date-range">Year of Passing: 2010</p>
+                <p>Percentage: 91%</p>
+            </div>
+            <div class="education-item">
+                <h3 class="job-title">ICSE-X</h3>
+                <p class="company-name">Boys' High School, Allahabad</p>
+                <p class="date-range">Year of Passing: 2008</p>
+                <p>Percentage: 92.4%</p>
+            </div>
+        </section>
+        <section class="resume-section">
+            <h2 class="section-title">Languages and Technologies</h2>
+            <div class="flex flex-wrap">
+                <span class="skill-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="icon"><path fill-rule="evenodd" d="M8 4a3 3 0 00-3 3v4a5 5 0 01-5 5v6h18v-6a5 5 0 01-5-5V7a3 3 0 00-3-3zm-3 5a1 1 0 102 0v4a1 1 0 10-2 0V9zm6 0a1 1 0 102 0v4a1 1 0 10-2 0V9z" clip-rule="evenodd" /></svg>Python</span>
+                <span class="skill-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="icon"><path d="M10 3a1 1 0 010 2h6a1 1 0 110-2h-6zM10 7a1 1 0 010 2h10a1 1 0 110-2h-10zM10 11a1 1 0 010 2h10a1 1 0 110-2h-10zM10 15a1 1 0 010 2h6a1 1 0 110-2h-6z" /></svg>Django</span>
+                <span class="skill-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="icon"><path d="M12 15a3 3 0 100-6 3 3 0 000 6zM8 16a4 4 0 11-8 0 4 4 0 018 0zm0-2a3 3 0 100-6 3 3 0 000 6z" /></svg>Java</span>
+                <span class="skill-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="icon"><path d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM6 10a3 3 0 100-6 3 3 0 000 6z" /></svg>SQL</span>
+                <span class="skill-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="icon"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v3.586L7.707 9.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 10.586V7z" clip-rule="evenodd" /></svg>Redis</span>
+                <span class="skill-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="icon"><path d="M3 4a1 1 0 00-1 1v10a1 1 0 001 1h14a1 0 001-1V5a1 1 0 00-1-1H3zM2 5a2 2 0 012-2h12a2 2 0 012 2v10a2 0 01-2 2H4a2 0 01-2-2V5z" /></svg>AWS Tools</span>
+                <span class="skill-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="icon"><path d="M9.383 3.075A.75.75 0 008.29 4.5l-1.55 4.75c-.05.165-.02.35.085.485l4.25 4.25c.135.105.32.135.485.085l4.75-1.55a.75.75 0 001.425-.89l-7-17.5a.75.75 0 00-1.08 0l-8.617 2.873zM10 11a2 2 0 100-4 2 2 0 000 4z" /></svg>MongoDB</span>
+            </div>
+        </section>
+        <section class="resume-section">
+            <h2 class="section-title">Undergraduate Coursework</h2>
+            <p>Algorithms; Data Structures; Web Development; Databases; Object Oriented Programming; Robotics.</p>
+        </section>
+        <section class="resume-section">
+            <h2 class="section-title">Extra-Curricular</h2>
+            <ul class="list-disc list-inside">
+                <li>Among the top 5 in the Amazon internal Hackathon aimed at improving search in Seller forums.</li>
+                <li>Ranked 156 in the ICPC - Amritapuri Asia Level 2013-14.</li>
+            </ul>
+        </section>
+        <section class="resume-section">
+            <h2 class="section-title">Contact Information</h2>
+            <div class="contact-info">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 0 00-1.997 1.884z"/><path d="M18 8.118l-8 4-8-4V14a2 0 002 2h12a2 0 002-2V8.118z"/></svg>
+                <span>vibhor500@gmail.com</span>
+            </div>
+            <div class="contact-info">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h14a1 1 0 011 1v14a1 1 0 01-1 1H3a1 1 0 01-1-1V3zm2 2v2h12V5H4zm0 4v2h12V9H4zm0 4v2h12v-2H4z"/></svg>
+                <span>+1-647-685-9992</span>
+            </div>
+            <div class="contact-info">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M10 20a10 10 0 1 1 0-20 10 10 0 0 1 0 20zM8.683 8.483l2.71-2.71a1 1 0 00-1.414-1.414l-2.71 2.71-2.71-2.71a1 1 0 00-1.414 1.414l2.71 2.71-2.71 2.71a1 0 001.414 1.414l2.71-2.71 2.71 2.71a1 0 001.414-1.414l-2.71-2.71z"/></svg>
+                <a href="https://www.linkedin.com/in/vibhor-garg-78669662/">LinkedIn Profile</a>
+            </div>
+            <div class="contact-info">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.4 8.35c-.28-.28-.73-.28-1.02 0L5.12 11.63c-.1.1-.16.25-.16.4V16c0 .55.45 1 1 1h8c.55 0 1-.45 1-1v-3.97c0-.15-.06-.3-.16-.4l-3.26-3.25c-.28-.28-.73-.28-1.02 0zM10 2a5 5 0 1 0 0 10 5 5 0 0 0 0-10z"/></svg>
+                <a href="https://github.com/vibhor500">GitHub Profile</a>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
